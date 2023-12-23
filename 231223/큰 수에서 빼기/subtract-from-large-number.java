@@ -8,7 +8,7 @@ public class Main {
         if (b > a) {
             System.out.print(b-a);
         }
-        if (a > b) {
+        if (a >= b) {
             System.out.print(a-b);
         }
     }
