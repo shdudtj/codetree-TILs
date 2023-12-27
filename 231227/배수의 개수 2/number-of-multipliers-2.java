@@ -2,12 +2,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int a = sc.nextInt();
         int cnt = 0;
         for (int i = 1; i <= 10; i++) {
-            if (n % 2 == 1) {
+            if (a % 2 == 1) 
                 cnt++;
-            }
         }
         System.out.println(cnt);
     }
