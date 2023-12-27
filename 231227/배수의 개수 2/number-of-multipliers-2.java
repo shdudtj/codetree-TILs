@@ -5,7 +5,7 @@ public class Main {
         int n = sc.nextInt();
         int cnt = 0;
         for (int i = 1; i <= 10; i++) {
-            if (i % 2 == 1) {
+            if (n % 2 == 1) {
                 cnt++;
             }
         }
